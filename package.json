@@ -1,0 +1,30 @@
+{
+  "name": "picker",
+  "version": "1.2.0",
+  "description": "滚动选择组件。",
+  "keywords": [],
+  "homepage": "git@github.com:MoeKit/picker.git",
+  "author": "damao.wj@taobao.com",
+  "maintainers": [
+    "longhao.llh@alipay.com",
+    "damao.wj@taobao.com"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MoeKit/picker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MoeKit/picker/issues"
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    },
+    "engines": {},
+    "tests": "tests/*.js"
+  }
+}
