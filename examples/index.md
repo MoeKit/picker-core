@@ -62,7 +62,7 @@
 ````
 
 ````javascript
-var BaseScroller = require('picker');
+var Picker = require('picker');
 
 var contactData = [
   {
@@ -99,7 +99,7 @@ var contactData = [
   }
 ];
 
-var contactScroller = new BaseScroller({
+var contactScroller = new Picker({
   container: document.getElementById('contact'),
   className: 'contact-scroller',
   data: contactData,
@@ -131,11 +131,11 @@ contactScroller.select(4);
 }
 ````
 ````javascript
-var BaseScroller = require('picker');
+var Picker = require('picker');
 
 var month = [1,2,3,4,5,6,7,8,9,10,11,12];
 
-var monthScroller = new BaseScroller({
+var monthScroller = new Picker({
   className: 'month-scroller a b c',
   itemHeight: 20,
   itemsNumber: 5
