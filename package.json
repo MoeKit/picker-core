@@ -1,5 +1,5 @@
 {
-  "name": "picker",
+  "name": "picker-core",
   "version": "1.2.0",
   "description": "滚动选择组件。",
   "keywords": [],

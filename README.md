@@ -2,7 +2,7 @@
 
 ---
 
-[![spm version](http://spmjs.io/badge/anima-basescroller)](http://spmjs.io/package/anima-basescroller)
+[![spm version](http://moekit.com/badge/picker-core)](http://moekit.com/package/picker-core)
 
 滚动选择组件。
 
@@ -10,19 +10,14 @@ Thx to: http://spmjs.io/package/anima-basescroller
 
 ---
 
-## Install
-
-```
-$ spm install anima-basescroller --save
-```
 
 ## Usage
 
 ```js
-var BaseScroller = require('basescroller');
-var nameScroller = new BaseScroller(options);
+var Picker = require('picker-core');
+var nameScroller = new Picker(options);
 
-// use BaseScroller
+// use Picker
 ```
 
 ## API

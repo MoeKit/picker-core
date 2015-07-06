@@ -62,7 +62,7 @@
 ````
 
 ````javascript
-var Picker = require('picker');
+var Picker = require('picker-core');
 
 var contactData = [
   {
@@ -131,7 +131,7 @@ contactScroller.select(4);
 }
 ````
 ````javascript
-var Picker = require('picker');
+var Picker = require('picker-core');
 
 var month = [1,2,3,4,5,6,7,8,9,10,11,12];
 
